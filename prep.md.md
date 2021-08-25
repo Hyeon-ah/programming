@@ -5,6 +5,7 @@
 #파이썬_대화 하는거-> interactive shell방식
 #응용-> application, 순서대로 작업->program
 
+cd a #a로 경로를 바꿔라
 #gate way interface=CGI
 
 #웹서버가 웹브라우저에게 데이터를 전송할때 데이터가 무엇인지에 대한 것을 header라고 부름
