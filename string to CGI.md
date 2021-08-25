@@ -12,7 +12,7 @@ import cgi
 form = cgi.FieldStorage()
 pageId = form["id"].value
 
-#?id=HTML 을 quary string 이라고 함.
+#?id=HTML 을 query string 이라고 함.
 print('''<!doctype html>
 <html>
 <head>
@@ -32,3 +32,11 @@ print('''<!doctype html>
 </body>
 </html>
 ''' .format(title=pageId))
+
+
+<CGI란 무엇인가?>
+- Web 서버가 사용자의 요청을 받았을 때, 그 요청과 관련해서 web application이 어떠한 처리를 할 수 있도록 query string과 같은 약속되어 있는 이름의 데이터를 환경변수라는 형태로 전달해주는 것.
+- index.py(web application)는 id라는 입력값을 받고 있고, id에 따라 다른 값을 출력
+- google에 이미지 검색(cgi web)
+-cgi라는 "약속"을 통해 cgi application(index.py)으로 데이터 전송하면 web-server로 output나오면 web-brower로 나오게 됨.
+http://127.0.0.1/cgi_env.py?id=HTML처럼 id라는 query를 주면 HTML이 나옴.
