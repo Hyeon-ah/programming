@@ -2,7 +2,7 @@
 #python3 file list in directory
 #listdir
 
-
+```
 #!python
 print("Content-Type: text/html")
 print()
@@ -36,13 +36,13 @@ print('''<!doctype html>
 </body>
 </html>
 '''.format(title=pageId, desc=description, listStr=listStr))
-
+```
 
 6. form 사용.
 #url qurey string을 만드는 것
-
+```
 input
 textarea
-<form>과 </form>으로 감싸기
+`<form>`과 `</form>`으로 감싸기
 #사용자가 데이터입력이나 수정할 수 없도록 하는 법=query string 있으면 안된다.
-
+```
