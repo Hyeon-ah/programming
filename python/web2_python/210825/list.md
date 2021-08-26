@@ -4,7 +4,7 @@ https://docs.python.org/3/에서 문서 참고가능.
 - 짐이 많으면 가구골라서 정리하는 것과 비슷한 개념.
 - 컨테이너
 - 대괄호[] 안:index
-
+```
 s = [1, 'four', 9, 16, 25] #여기 안에 있는 건 원
 print(s) #1, 'four', 9, 16, 25
 print(s[1]) #four
@@ -17,6 +17,8 @@ print(s) #1,4, 16, 25
 #list add
 s.append('hyeonah')
 print(s) ##1,4, 16, 25, hyeonah
+```
+
 
 2. common sequence operation
 list(Sequence Type)와 str(Text Sequence Type)은 공통적으로 sequednce operation.
@@ -30,12 +32,13 @@ person['name'] #hyeonah.
 (if 문: compound statement)
 
 #[]안의 것을 계속 value에 대입.
+```
 for value in ['a','b','c']:
     print(value)
 #range
 for value in range(10):
     print(value)
-
+```
 
 #while statement.
 
@@ -44,7 +47,7 @@ for value in range(10):
 #python3 file list in directory
 #listdir
 
-
+```
 #!python
 print("Content-Type: text/html")
 print()
@@ -78,7 +81,7 @@ print('''<!doctype html>
 </body>
 </html>
 '''.format(title=pageId, desc=description, listStr=listStr))
-
+```
 
 6. form 사용.
 #url qurey string을 만드는 것
