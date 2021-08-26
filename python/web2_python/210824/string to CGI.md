@@ -14,7 +14,7 @@ form = cgi.FieldStorage()
 pageId = form["id"].value
 ```
 
-- ?id=HTML 을 query string 이라고 함.<br>
+- `?id=HTML` 을 query string 이라고 함.<br>
 ```
 print('''<!doctype html>
 <html>
