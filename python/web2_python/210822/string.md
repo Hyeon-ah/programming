@@ -48,23 +48,27 @@ print(a) #Hello Python
 + Python string length <br>
 `print(len(a))' #12 <br>
 
-
-+ string slice
-: 대괄호 안에 자릿수(index)를 준다.
-: python은 카운팅을 0부터
+ 
++ string slice <br>
+: 대괄호 안에 자릿수(index)를 준다. <br>
+: python은 카운팅을 0부터 <br>
+: `:`은 ~이상 ~초과 <br>
 ``
 print(a[0]) #H
 print(a[1]) #e
-print(a[2:5]) #llo #~이상 ~**초과**
+print(a[2:5]) #llo
 ```
 
-#repeat
-print(a*2)
-print((a+'\n')*2)
++ repeat
+```
+print(a*2) #Hello PythonHello Python
+print((a+'\n')*2) 
+#Hello Python
+ Hello Python
+```
 
-
-#3. 문자열 치환; 문자열과 변수
-#editor이용_apple이릉을 각 이름에 맞게 수정
+## 4. 문자열 치환_문자열과 변수
++ editor이용_apple이름을 각 이름에 맞게 수정
 name = 'hyeonah' #name을 변수화
 age = 12
 print('to '+name+'. Lorem ipsum dolor sit amet, consectetur '+age+' adipisicing elit, sed do eiusmod apple tempor incididunt ut labore apple computeret dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in '+name+' voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui '+name+' officia deserunt mollit anim id est laborum.')
