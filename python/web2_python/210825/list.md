@@ -5,18 +5,16 @@
 + CONTAINER <br>
 + 대괄호[] 안 : index <br>
 
-
-```
-s = [1, 'four', 9, 16, 25] #여기 안에 있는 건 원소
-print(s) #1, 'four', 9, 16, 25
-print(s[1]) #four
-print(len(s)) #5
-s[1] = 4 #원소 수정
-print(s) #1, 4, 9, 16, 25
-del s[2] #list delete by index
-print(s) #1,4, 16, 25
-s.append('hyeonah') #list add
-print(s) ##1,4, 16, 25, hyeonah
+`s = [1, 'four', 9, 16, 25]` #여기 안에 있는 건 원소 <br>
+`print(s)` #1, 'four', 9, 16, 25 <br>
+`print(s[1])` #four <br>
+`print(len(s))` #5 <br>
+`s[1] = 4` #원소 수정 <br>
+`print(s)` #1, 4, 9, 16, 25 <br>
+`del s[2]` #list delete by index <br>
+`print(s)` #1,4, 16, 25 <br>
+`s.append('hyeonah')` #list add <br>
+`print(s)` ##1,4, 16, 25, hyeonah <br>
 ```
 
 
