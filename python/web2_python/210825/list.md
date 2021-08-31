@@ -14,14 +14,14 @@
 `del s[2]` #list delete by index <br>
 `print(s)` #1,4, 16, 25 <br>
 `s.append('hyeonah')` #list add <br>
-`print(s)` ##1,4, 16, 25, hyeonah <br>
+`print(s)` #1,4, 16, 25, hyeonah <br>
 
 
 
 ## 2. common sequence operation <br>
 + list(Sequence Type)와 str(Text Sequence Type)은 공통적으로 sequednce operation <br>
 + list와 str 비교 <br>
-<list<
+<list>
 ```
 s = [1, 'four', 9, 16, 25] 
 print(s) #1, 'four', 9, 16, 25
