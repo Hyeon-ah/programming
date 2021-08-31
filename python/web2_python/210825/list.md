@@ -42,7 +42,7 @@ a[1] = 4 #오류
 del a[2] #오류
 ```
 
-: 즉, list와 str 모두 sequence operation이지만, str은 텍스트이기 때문에 n번째 원소를 다른 값으로 바꾸거나 삭제 불가.
+: _즉, list와 str 모두 sequence operation이지만, str은 텍스트이기 때문에 n번째 원소를 다른 값으로 바꾸거나 삭제 불가._
     
 ## 3. other container_dict(Mapping Types)<br>
 ```
