@@ -1,5 +1,5 @@
-- CGI로 홈페이지를 출력<br>
-- error 발생시, error log참고<br>
++ CGI로 홈페이지를 출력<br>
++ error 발생시, **error log**참고<br>
 ```
 #!python
 print("Content-Type: text/html")
@@ -7,14 +7,14 @@ print()
 print('hello World')
 ```
 
-- id설정<br>
++ id설정<br>
 ```
 import cgi
 form = cgi.FieldStorage()
 pageId = form["id"].value
 ```
 
-- `?id=HTML` 을 query string 이라고 함.<br>
++ `?id=HTML` 을 query string 이라고 함.<br>
 ```
 print('''<!doctype html>
 <html>
