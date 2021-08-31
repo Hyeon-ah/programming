@@ -86,7 +86,7 @@ print('to {}. Lorem ipsum dolor sit amet, consectetur {} adipisicing elit, sed d
 : Named placeholder <br>
 : name은 문자만, age는 숫자만 넣도록 하도록 <br>
 : 중복이 사라지고, 데이터의 취지(가독성)높아짐. <br>
-: 이름자리에 `{name}`, 나이 자리에 '{age:d}`, `.format(name='hyeonah', age =12)`
+: 이름자리에 `{name}`, 나이 자리에 `{age:d}`, `.format(name='hyeonah', age =12)`
 ```
 print('to {name}. Lorem ipsum dolor sit amet, consectetur {age:d} adipisicing elit, sed do eiusmod apple tempor incididunt ut labore apple computeret dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in {name} voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui {name} officia deserunt mollit anim id est laborum.' .format(name='hyeonah', age =12))
 ```
