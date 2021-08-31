@@ -1,6 +1,6 @@
-programming이란? <br>
+** programming이란? <br>
 : 차례로 진행되는 것 <br>
-: giving a list of instructions for a computer to follow = algorithms
+: giving a list of instructions for a computer to follow = algorithms <br>
 : `print("Hello world")` is source code -> through PYTHON INTERPRETER -> `Hello world` is output window
 
 
