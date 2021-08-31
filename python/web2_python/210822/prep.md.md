@@ -1,7 +1,8 @@
 ### programming이란? <br>
 : 차례로 진행되는 것 <br>
-: giving a list of instructions for a computer to follow = algorithms <br>
-: `print("Hello world")` is source code -> through PYTHON INTERPRETER -> `Hello world` is output window
+ giving a list of instructions for a computer to follow = algorithms <br>
+: `print("Hello world")` is source code -> through PYTHON INTERPRETER -> `Hello world` is output window <br>
+
 
 
 #127.0.0.1 접속해서 bitnami잘 설치되었는지 확인
