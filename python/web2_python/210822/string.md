@@ -6,7 +6,7 @@
 + escape `\`뒤에 있는 거 하나를 문자화 함. <br>
 `print("Hell'o' \"w\"orld")` #Hell'o' "w"orld <br>
 
-#newline
++ newline_각 
 print('H')
 print('e')
 print('l')
