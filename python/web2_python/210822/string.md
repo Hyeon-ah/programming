@@ -6,14 +6,23 @@
 + escape `\`뒤에 있는 거 하나를 문자화 함. <br>
 `print("Hell'o' \"w\"orld")` #Hell'o' "w"orld <br>
 
-+ newline_각 
-print('H')
-print('e')
-print('l')
-print('l')
-print('o')
-print('H\ne\nl\nl\no')
++ newline
+<새로운 줄에 직접 입력> <br>
+`print('H')` <br>
+`print('e')` <br>
+`print('l')` <br>
+`print('l')` <br>
+`print('o')` <br>
 
+<`\n`을 이용해 newline>
+print('H\ne\nl\nl\no') 
+```
+H
+e
+l
+l
+o
+```
 #docsting
 print('''
 H
