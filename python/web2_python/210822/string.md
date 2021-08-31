@@ -89,6 +89,6 @@ print('to {}. Lorem ipsum dolor sit amet, consectetur {} adipisicing elit, sed d
 print('to {name}. Lorem ipsum dolor sit amet, consectetur {age:d} adipisicing elit, sed do eiusmod apple tempor incididunt ut labore apple computeret dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in {name} voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui {name} officia deserunt mollit anim id est laborum.' .format(name='hyeonah', age =12))
 ```
 : `age:d`(digit)를 하면 age에 문자가 오면 아래와 같은 오류나옴. = name은 문자만, age는 숫자만 넣도록 하도록!
-```
+ 
 ValueError: Unknown format code 'd' for object of type 'str'
-```
+
