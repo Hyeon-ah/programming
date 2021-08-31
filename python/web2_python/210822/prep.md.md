@@ -1,11 +1,12 @@
-### programming이란? <br>
+## programming이란? <br>
 : 차례로 진행되는 것 <br>
- giving a list of instructions for a computer to follow = algorithms <br>
+: giving a list of instructions for a computer to follow = algorithms <br>
 : `print("Hello world")` is source code -> through PYTHON INTERPRETER -> `Hello world` is output window <br>
 
+## 실습 준비 전 확인할 것 <br>
+: 127.0.0.1 접속해서 bitnami잘 설치되었는지 확인 <br>
 
-
-#127.0.0.1 접속해서 bitnami잘 설치되었는지 확인
+## GUI란?
 #기존에 폴더 직접 생성해서 하는 거는 GUI라고 하고, window키+r 눌러서 cmd 해서 mkdir이나 rmdir처럼 하는 걸 CLI(Command Line Interface)라고 한다.
 #파이썬_대화 하는거-> interactive shell방식
 #응용-> application, 순서대로 작업->program
