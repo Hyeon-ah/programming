@@ -13,11 +13,9 @@ print(s[1]) #four
 print(len(s)) #5
 s[1] = 4 #원소 수정
 print(s) #1, 4, 9, 16, 25
-#list delete by index
-del s[2]
+del s[2] #list delete by index
 print(s) #1,4, 16, 25
-#list add
-s.append('hyeonah')
+s.append('hyeonah') #list add
 print(s) ##1,4, 16, 25, hyeonah
 ```
 
