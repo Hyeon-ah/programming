@@ -13,7 +13,7 @@ gentleman 9
 baby 4
 ```
 ### 2. range() <br>
-: 어떤 정수를 인자로 주면 그 범위 안의 정수들을 만들어줌. <br>
++ 어떤 정수를 인자로 주면 그 범위 안의 정수들을 만들어줌. <br>
 ```
 >>> list(range(2, 7))   #파이썬 3 
 >>> range(2, 7)         #파이썬 2
@@ -24,7 +24,7 @@ baby 4
 ```
 
 ### 3. `for` 문에 `range()`를 사용 <br>
-< 사용한 예제 명시 > <br>
++ 사용한 예제 명시 <br>
 ```
 >>> a = [4, 5, 6, 7]
 >>> for i in a:
@@ -37,7 +37,7 @@ baby 4
 6
 7
 ```
-< 위의 예시를 `for`과 `range` 사용 > <br>
++ 위의 예시를 `for`과 `range` 사용 <br>
 ```
 >>> for i in range(4, 8):
 ...     print(i)
@@ -54,7 +54,7 @@ for value in range(10):
 ```
 
 ### 5. while statement. <br> 
-: While문 기본 구조 <br>
++ While문 기본 구조 <br>
 ```
 while <조건문>:
     <수행할 문장1>
