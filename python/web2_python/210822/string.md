@@ -40,8 +40,9 @@ o
 
 ## 3. 문자열 처리 <br>
 + 변수=변할 수 있는 값 <br>
-```a = 'Hello Python'
-#print(a)
+```
+a = 'Hello Python'
+print(a) #Hello Python
 ```
 #python string length
 print(len(a))
