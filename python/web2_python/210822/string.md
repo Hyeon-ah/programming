@@ -1,4 +1,5 @@
-#1. 문자열 표현
+## 문자열(String) 표현
++ string은 여러 개의 문장.
 print('Hello world')
 print("Hello world")
 print("Hell'o' world")
