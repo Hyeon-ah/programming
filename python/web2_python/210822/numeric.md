@@ -4,10 +4,10 @@
 + numeric type <br>
 + There are a lot of operators(+,/,//,%,**, etc)
 ex) <br>
-> print(6+3) #9 
-> print(7/2) #3.5
-> print(6/2) #3.0
-> print(6.0/2) #3.0 
+> print(6+3) #9 <br>
+> print(7/2) #3.5 <br>
+> print(6/2) #3.0 <br>
+> print(6.0/2) #3.0 <br>
 > print(7//2) #3 #값이 버림으로 해서 float(실수)로 나옴. <br>
 > print(7.0//2) #3.0 <br>
 > print(7%2) #1 #remainder #modulo operator <br>
