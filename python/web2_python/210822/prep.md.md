@@ -14,10 +14,19 @@
 
 ## CGI 란? <br>
 + Common Gateway Interface 
-+ ex) `cd a` #a로 경로를 바꿔라 
++ ex) `cd a` #a로 경로를 바꿔라 <br>
+ > `cd \BItnami\wampstack-8.0.9-0\apache2\htdocs\` <br>
 + chrome -> 마우스 우클릭 -> 검사 -> Network -> link 클릭 -> Response -> header 
- > 웹서버가 웹브라우저에게 데이터를 전송할때 데이터가 무엇인지에 대한 것을 header라고 부름
- ex.문서형식이면 html, 사진이면 png 등등
-#python홈페이지 가서 -검사-Netword-홈페이지-content type 복사해서 helloworld.py의 print앞에 넣기
-#cmd에 가서 python helloworld.py해보면 header다음에 한 줄 띄고 값이 나오는 걸 볼 수 있음.
+ > 웹서버가 웹브라우저에게 데이터를 전송할때 데이터가 무엇인지에 대한 것을 header라고 부름 <br>
+ > ex.headers["Content-Type"] #문서형식이면 html, 사진이면 png 등등
+## python.org 홈페이지에서 적용시켜보기
++ python홈페이지 - 검사 - Network - 홈페이지 - content type 복사해서 helloworld.py의 print앞에 넣기
++ cmd에 가서 python helloworld.py해보면 header다음에 한 줄 띄고 값이 나오는 걸 볼 수 있음.
++ ```
++ #!python
+a = 3+4+5
+b = a/3
+print("content-type: text/html; charset=utf-8\n")
+print(b)
+```
  
