@@ -68,7 +68,8 @@ print(x) # test1
 x += ' test2'
 print(x) # test1 test2
 ```
-: 'test1' value를 가진 x의 value를 'test1 test2'로 바꾼 결과 -> BUT 'test1'이 바뀐 것이 아니라! x에 새로운 value'test2'를 부여하면서 메모리 위치가 변경 된 것 <- (identity 변경) <br>
+: 'test1' value를 가진 x의 value를 'test1 test2'로 바꾼 결과 <br>
+-> BUT 'test1'이 바뀐 것이 아니라! x에 새로운 value'test2'를 부여하면서 메모리 위치가 변경 된 것 <- (identity 변경) <br>
 : 따라서 기존의 'test1'이 변경된 것이 아니라, **새로운 object를 생성한 것** <br>
 : 아래를 통해서 검증 <br>
  ```
