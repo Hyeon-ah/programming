@@ -55,7 +55,7 @@ print(a) #Hello Python
 ``
 print(a[0]) #H
 print(a[1]) #e
-print(a[2:5]) #llo #~이상~ **초과**
+print(a[2:5]) #llo #~이상 ~**초과**
 ```
 
 #repeat
