@@ -25,8 +25,8 @@ l
 o
 ```
 + docstring <br>
-큰따옴표 3개나 작은 따옴표 3개 <br>
-문서화 <br>
+: 큰따옴표 3개나 작은 따옴표 3개 <br>
+: 문서화 <br>
 
 ```
 print('''
@@ -44,14 +44,19 @@ o
 a = 'Hello Python'
 print(a) #Hello Python
 ```
-#python string length
-print(len(a))
 
-#string slice, 대괄호 안에 자릿수(index)를 준다.
-#python은 카운팅을 0부터
-print(a[0])
-print(a[1])
-print(a[2:5])
++ Python string length <br>
+`print(len(a))' #12 <br>
+
+
++ string slice
+: 대괄호 안에 자릿수(index)를 준다.
+: python은 카운팅을 0부터
+``
+print(a[0]) #H
+print(a[1]) #e
+print(a[2:5]) #llo #~이상~ **초과**
+```
 
 #repeat
 print(a*2)
