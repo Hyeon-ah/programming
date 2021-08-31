@@ -78,11 +78,11 @@ print('to '+name+'. Lorem ipsum dolor sit amet, consectetur '+age+' adipisicing 
 
 + formatting <br>
 : name은 문자만, age는 숫자만 넣도록 하도록 <br>
- (1) 순서대로 데이터 치환(positional formatting) <br>
+ 1) 순서대로 데이터 치환(positional formatting) <br>
  ```
 print('to {}. Lorem ipsum dolor sit amet, consectetur {} adipisicing elit, sed do eiusmod apple tempor incididunt ut labore apple computeret dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in {} voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui {} officia deserunt mollit anim id est laborum.' .format('hyeonah', 12, 'hyeonah', 'hyeonah'))
 ```
-+ formatting <br>
+ 2) formatting <br>
 : Named placeholder <br>
 : 중복이 사라지고, 데이터의 취지(가독성)높아짐. <br>
 ```
