@@ -1,5 +1,5 @@
-## 4. LOOP_반복문 <br>
-+ 반복문 `for`의 문법 <br>
+## LOOP_반복문 <br>
+### 1. 반복문 `for`의 문법 <br>
 ```
 >>> family = ['mother', 'father', 'gentleman', 'baby']
 >>> for x in family:        # family의 각 항목 x에 대하여:
@@ -12,7 +12,7 @@ father 6
 gentleman 9
 baby 4
 ```
-+ range() <br>
+### 2. range() <br>
 : 어떤 정수를 인자로 주면 그 범위 안의 정수들을 만들어줌. <br>
 ```
 >>> list(range(2, 7))   #파이썬 3 
@@ -23,7 +23,7 @@ baby 4
 [2, 3, 4, 5, 6] #2 이상 7 미만인 숫자로 리스트를 만들어 줌.
 ```
 
-+ `for` 문에 `range()`를 사용 <br>
+### 3. `for` 문에 `range()`를 사용 <br>
 < 사용한 예제 명시 > <br>
 ```
 >>> a = [4, 5, 6, 7]
@@ -43,7 +43,7 @@ baby 4
 ...     print(i)
 ```
 
-+ if 문: compound statement <br>
+### 4. if 문: compound statement <br>
 + []안의 것을 계속 value에 대입. <br>
 ```
 for value in ['a','b','c']:
@@ -53,7 +53,7 @@ for value in range(10):
     print(value)
 ```
 
-+ while statement. <br> 
+### 5. while statement. <br> 
 : While문 기본 구조 <br>
 ```
 while <조건문>:
@@ -63,7 +63,7 @@ while <조건문>:
     ...
 ```
 
-5. 응용 <br>
+### 6. 응용 <br>
 + python3 file list in directory <br>
 + listdir <br>
 
@@ -103,7 +103,7 @@ print('''<!doctype html>
 '''.format(title=pageId, desc=description, listStr=listStr))
 ```
 
-6. form 사용.<br>
+### 7. form 사용.<br>
 #url qurey string을 만드는 것<br>
 ```
 input
