@@ -3,7 +3,6 @@
 + google에 python3 number type 검색
 + numeric type <br>
 + There are a lot of operators(+,/,//,%,**, etc) <br>
-ex) <br>
 `print(6+3)` #9 <br>
 `print(7/2)` #3.5 <br>
 `print(6/2)` #3.0 <br>
