@@ -21,7 +21,7 @@
 ## 2. common sequence operation <br>
 + list(Sequence Type)와 str(Text Sequence Type)은 공통적으로 sequednce operation <br>
 + list와 str 비교 <br>
-<list>
++ list
 ```
 s = [1, 'four', 9, 16, 25] 
 print(s) #1, 'four', 9, 16, 25
@@ -32,7 +32,7 @@ del s[2]
 print(s) #1,4, 16, 25
 ```
 
-<str>
++ string
 ```
 a = '1, four, 9, 16, 25'
 print(a) #1, four, 9, 16, 25
