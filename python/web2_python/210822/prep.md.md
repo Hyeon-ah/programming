@@ -23,7 +23,7 @@
 + python홈페이지 - 검사 - Network - 홈페이지 - content type 복사해서 helloworld.py의 print앞에 넣기
 + cmd에 가서 python helloworld.py해보면 header다음에 한 줄 띄고 값이 나오는 걸 볼 수 있음.
 ```
-+ #!python
+#!python
 a = 3+4+5
 b = a/3
 print("content-type: text/html; charset=utf-8\n")
