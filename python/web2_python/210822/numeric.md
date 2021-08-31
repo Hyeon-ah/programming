@@ -11,4 +11,7 @@ ex) <br>
 > print(7//2) #3 #값이 버림으로 해서 float(실수)로 나옴. <br>
 > print(7.0//2) #3.0 <br>
 > print(7%2) #1 #remainder #modulo operator <br>
-> print(7**2) #49 #제곱근 <br>ㅔ
+> print(7**2) #49 #제곱근 <br>
++`**`끼리 있을 때는 **right-to-left**
+> print(2**3**2) #512 <br>
+> 3x3: 9 -> 2의 9승 -> 512
