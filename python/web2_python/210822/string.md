@@ -6,7 +6,8 @@
 + escape `\`뒤에 있는 거 하나를 문자화 함. <br>
 `print("Hell'o' \"w\"orld")` #Hell'o' "w"orld <br>
 
-- newline <br>
+## 2. Expressions for String
++ newline <br>
 <새로운 줄에 직접 입력> <br>
 `print('H')` <br>
 `print('e')` <br>
@@ -23,7 +24,7 @@ l
 l
 o
 ```
-- docsting
++ docstring_ #문서화 #프로그래밍의_속성으로 접근할수 있음.
 print('''
 H
 e
