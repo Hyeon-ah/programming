@@ -1,13 +1,13 @@
-https://docs.python.org/3/에서 문서 참고가능.<br>
++ https://docs.python.org/3/에서 문서 참고가능.<br>
 
-1. new data type_LIST(목록)<br>
-- 짐이 많으면 가구골라서 정리하는 것과 비슷한 개념.<br>
-- 컨테이너<br>
-- 대괄호[] 안:index<br>
+## 1. LIST_new data type(목록)<br>
++ (Metaphor) 짐이 많으면 가구골라서 정리하는 것과 비슷한 개념 <br>
++ CONTAINER <br>
++ 대괄호[] 안 : index <br>
 
 
 ```
-s = [1, 'four', 9, 16, 25] #여기 안에 있는 건 원
+s = [1, 'four', 9, 16, 25] #여기 안에 있는 건 원소
 print(s) #1, 'four', 9, 16, 25
 print(s[1]) #four
 print(len(s)) #5
@@ -22,10 +22,33 @@ print(s) ##1,4, 16, 25, hyeonah
 ```
 
 
-2. common sequence operation<br>
-list(Sequence Type)와 str(Text Sequence Type)은 공통적으로 sequednce operation.<br>
+## 2. common sequence operation <br>
++ list(Sequence Type)와 str(Text Sequence Type)은 공통적으로 sequednce operation <br>
++ list와 str 비교 <br>
+<list> 
+```
+s = [1, 'four', 9, 16, 25] 
+print(s) #1, 'four', 9, 16, 25
+print(s[1]) #four
+print(len(s)) #5
+s[1] = 4 
+del s[2]
+print(s) #1,4, 16, 25
 
-3. other container_dict(Mapping Types)<br>
+```
+<str>
+```
+a = '1, four, 9, 16, 25'
+print(a) #1, four, 9, 16, 25
+print(a[1]) #,
+print(len(a)) #18
+a[1] = 4 #오류
+del a[2] #오류
+```
+
+: 즉, list와 str 모두 sequence operation이지만, str은 텍스트이기 때문에 n번째 원소를 다른 값으로 바꾸거나 삭제 불가.
+    
+## 3. other container_dict(Mapping Types)<br>
 ```
 person = {'name':'hyeonah', 'address':'seoul'}
 person['name'] #hyeonah.
