@@ -7,7 +7,7 @@
 `print(7/2)` #3.5 <br>
 `print(6/2)` #3.0 <br>
 `print(6.0/2)` #3.0 <br>
-`print(7//2)` #3 #값이 버림으로 해서 float(실수)로 나옴. <br>
+`print(7//2)` #3 #truncated_division #값이 버림으로 해서 float(실수)로 나옴. <br>
 `print(7.0//2)` #3.0 <br>
 `print(7%2)` #1 #remainder #modulo operator <br>
 `print(7**2)` #49 #제곱근 <br>
