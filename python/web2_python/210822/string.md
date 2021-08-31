@@ -1,12 +1,10 @@
 ## 문자열(String) 표현
-+ string은 여러 개의 문장.
-print('Hello world')
-print("Hello world")
-print("Hell'o' world")
-print("Hell'o' world")
-
-#escape \뒤에 있는 거 하나를 문자화 함.
-print("Hell'o' \"w\"orld")
++ string은 여러 개의 문장. <br>
+`print('Hello world')` #Hello world <br>
+`print("Hello world")` #Hello world <br>
+`print("Hell'o' world")` #Hell'o' world <br>
++ escape `\`뒤에 있는 거 하나를 문자화 함. <br>
+`print("Hell'o' \"w\"orld")` #Hell'o' "w"orld <br>
 
 #newline
 print('H')
