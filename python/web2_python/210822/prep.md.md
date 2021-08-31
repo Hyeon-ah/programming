@@ -1,12 +1,12 @@
-## programming 이란? <br>
-+ 응용-> application, 순서대로 작업-> program <br>
-+ 순서대로 작업되는 것 <br>
+## programming 이란?
++ 응용-> application, 순서대로 작업-> program 
++ 순서대로 작업되는 것 
 + tab이 중요한 요소 
-+ giving a list of instructions for a computer to follow = algorithms <br>
-: `print("Hello world")` is source code -> through PYTHON INTERPRETER -> `Hello world` is output window <br>
-: 파이썬_대화 하는거-> interactive shell방식
-## 실습 준비 전 확인할 것 <br>
-: 127.0.0.1 접속해서 bitnami잘 설치되었는지 확인 <br>
++ giving a list of instructions for a computer to follow = algorithms 
++ `print("Hello world")` is source code -> through PYTHON INTERPRETER -> `Hello world` is output window 
++ 파이썬_대화 하는거-> interactive shell방식
+## 실습 준비 전 확인할 것 
++ 127.0.0.1 접속해서 bitnami잘 설치되었는지 확인 
 
 ## GUI, CLI 란? <br>
 : 기존에 폴더 직접 생성해서 하는 것-> GUI(Graphical User Interface) <br>
