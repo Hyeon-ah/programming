@@ -18,7 +18,7 @@ else:
 '''
 ```
 
-#### Point3. conditioanl.py활용_id까지 물어보는 거<br>
+### 수업활용 자료: conditioanl.py활용_id까지 물어보는 거<br>
 ```
 user_id =  input('id?')
 user_pwd = input('password?')
