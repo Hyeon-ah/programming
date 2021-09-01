@@ -32,14 +32,13 @@ else:
 ```
 - - -
 
-**1. 제어문<br>**
-program->순서대로 컴퓨터가 실행하도록 하는 것.<br>
-순서대로>제어문(반복문/조건문)<br>
-
-<id가 없는 경우(Web클릭)는 welcome이 나오도록 index_no_id.py추가로 만들어서 진행_2개의 application만들어서 해결><br>
-index_no_id.py에 pageId를 Welcome으로 박제<br>
-
-<index_no_id.py>  
+## 1. 제어문 <br>**
++ program->순서대로 컴퓨터가 실행하도록 하는 것.<br>
++ 순서대로>제어문>반복문/조건문<br>
++ 활용 <br>
+: id가 없는 경우(Web클릭)-> welcome이 나오도록 index_no_id.py추가로 만들어서 진행_2개의 application만들어서 해결<br>
+: index_no_id.py에 pageId를 Welcome으로 박제<br>
++ index_no_id.py <br>
 ```
 import cgi  
 pageId = 'Welcome'  
@@ -56,7 +55,7 @@ print('''<!doctype html>
     <li><a href="index.py?id=CSS">CSS</a></li>  
     <li><a href="index.py?id=JavaScript">JavaScript</a></li>  
 ```
-<index.py>  
++ index_no_id.py를 넣은 index.py> <br>
 ```
 import cgi  
 form = cgi.FieldStorage()  
@@ -74,39 +73,39 @@ print('''<!doctype html>
     <li><a href="index.py?id=CSS">CSS</a></li>  
     <li><a href="index.py?id=JavaScript">JavaScript</a></li>  
 ```
-간단하게 해결할 수 있지만, 스크립트 수정시, 2개의 파일을 수정해야 하기 때문에 조건문 사용.<br>
+: _간단하게 해결할 수 있지만, 스크립트 수정시, 2개의 파일을 수정해야 하는 번거로움 -> 조건문 사용._<br>
 
 
-**2. data types<br>**
-    1) number(숫자열) #무한<br>
-`print(1)` #Integer<br>
-    2) string(문자열) #유한<br>
+## 2. data types<br>**
+  1) number(숫자열) #무한 <br>
+`print(1)` #Integer <br>
+  2) string(문자열) #유한 <br>
 `print('Hello world')`<br>
-    3) Boolean #단 2개의 데이터로 구성 #논리<br>
-`print(True)` #참<br>
-`print(False)` #거짓<br>
+  3) Boolean #단 2개의 데이터로 구성 #논리 <br>
+`print(True)` #참 <br>
+`print(False)` #거짓 <br>
 
-**3. Expression #좌항과 우항을 합쳐서 하나로<br>**
-`print(1+1)`<br>
-`print('Hello '+'world')` #Hello world<br>
+## 3. Expression #좌항과 우항을 합쳐서 하나로 <br>
+`print(1+1)` #2 <br>
+`print('Hello '+'world')` #Hello world <br>
 
-**4. Comparison operator #비교연산 #Boolean결과값<br>**
-`print(1==1)` #True<br>
-`print(1<2)` #True<br>
-`print(2<1)` #False<br>
+## 4. Comparison operator #비교연산 #Boolean결과값 <br>**
+`print(1==1)` #True <br>
+`print(1<2)` #True <br>
+`print(2<1)` #False <br>
 
-**5. Membership operator #뒤에 있는 값에 앞에 있는 값이 포함되어 있는가<br>**
-`print('world' in 'Hello world')` #world가 helloworld안에 있는가? #True<br>
+## 5. Membership operator #뒤에 있는 값에 앞에 있는 값이 포함되어 있는가 <br>**
+`print('world' in 'Hello world')`  #True #world가 helloworld안에 있는가? <br>
 
-<python3 check exist file in directory><br>
++ python3 check exist file in directory <br>
 ```
 import os.path
 print(os.path.exists('boolean.py')) #True
 print(os.path.exists('boolean2.py')) #False
 ```
 
-**6. 조건문(Conditional Statement)<br>**
-조건문 형식<br>
+## 6. 조건문(Conditional Statement) <br>**
++ 조건문 형식 <br>
   ```
 if xxx(boolean datatype) :
     yyy
