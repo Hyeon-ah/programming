@@ -1,4 +1,5 @@
-#### Point1. Python은 서로 같은 블럭에 속하는 코드를 같은 들여쓰기로 구분하는 중요한 특징이 있음.<br>
+### Python 기능
+#### 1. Python은 서로 같은 블럭에 속하는 코드를 같은 들여쓰기로 구분하는 중요한 특징이 있음.<br>
   ```
 user_input = input('password?')
 if user_input == '111111':
@@ -7,12 +8,14 @@ else:
     print('Who are you?')
   ```
   
-#### Point2. '''은 문자화 시키는 것으로, 실행되지 않음.<br>
+#### 2. '''은 문자화 시키는 것으로, 실행되지 않음.<br>
 ```
+'''
 if user_pwd == '111111':
     print('Helllo master')
 else:
     print('Who are you?')
+'''
 ```
 
 #### Point3. conditioanl.py활용_id까지 물어보는 거<br>
