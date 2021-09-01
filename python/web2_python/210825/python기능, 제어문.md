@@ -110,7 +110,7 @@ print(os.path.exists('boolean2.py')) #False
 
 ## 6. 조건문(Conditional Statement) <br>
 + 조건문 형식 <br>
-  ```
+```
 if xxx(boolean datatype) :
     yyy
 ```
