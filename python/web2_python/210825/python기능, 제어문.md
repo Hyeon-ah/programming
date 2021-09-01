@@ -125,8 +125,18 @@ if user_id == 'hyeonah' and user_pwd == '111111':
 else:
     print('Who are you?')
 ```
-
-
++ id와 pwd를 모두 물어보고 나서야 'Who are you?'를 물어보는게 아니라, id가 틀리면 바로 'Who are you?'를 묻고록 하는 코드
+```
+user_id =  input('id?')
+if user_id == 'hyeonah':
+    user_pwd = input('password?')
+    if user_pwd == '111111':
+        print('Hello master')
+    else:
+        print('Who are you?')
+else:
+    print('Who are you?')
+```
 ## 7. 논리 연산자(Logical operator) <br>
     1) and-> 왼쪽과 오른 쪽의 값이 같은지 다른지에 따라 \*\*true\*\* \*\*false\*\*<br>
 `True and False` #False<br>
