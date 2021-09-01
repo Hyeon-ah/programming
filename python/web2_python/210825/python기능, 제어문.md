@@ -1,5 +1,5 @@
 ### Python 기능
-#### 1. Python은 서로 같은 블럭에 속하는 코드를 같은 들여쓰기로 구분하는 중요한 특징이 있음.<br>
+#### 1. Python은 서로 같은 블럭에 속하는 코드를 같은 들여쓰기로 구분하는 중요한 특징이 있음. <br>
   ```
 user_input = input('password?')
 if user_input == '111111':
@@ -8,7 +8,7 @@ else:
     print('Who are you?')
   ```
   
-#### 2. '''은 문자화 시키는 것으로, 실행되지 않음.<br>
+#### 2. '''은 문자화 시키는 것으로, 실행되지 않음. <br>
 ```
 '''
 if user_pwd == '111111':
@@ -18,7 +18,7 @@ else:
 '''
 ```
 
-### 수업활용 자료: conditioanl.py활용_id까지 물어보는 거<br>
+### 수업활용 자료: conditioanl.py활용_id까지 물어보는 거 <br>
 ```
 user_id =  input('id?')
 user_pwd = input('password?')
@@ -32,7 +32,7 @@ else:
 ```
 - - -
 
-## 1. 제어문 <br>**
+## 1. 제어문 <br>
 + program->순서대로 컴퓨터가 실행하도록 하는 것.<br>
 + 순서대로>제어문>반복문/조건문<br>
 + 활용 <br>
@@ -76,7 +76,7 @@ print('''<!doctype html>
 : _간단하게 해결할 수 있지만, 스크립트 수정시, 2개의 파일을 수정해야 하는 번거로움 -> 조건문 사용._<br>
 
 
-## 2. data types<br>**
+## 2. data types<br>
   1) number(숫자열) #무한 <br>
 `print(1)` #Integer <br>
   2) string(문자열) #유한 <br>
