@@ -55,7 +55,7 @@ print('''<!doctype html>
     <li><a href="index.py?id=CSS">CSS</a></li>  
     <li><a href="index.py?id=JavaScript">JavaScript</a></li>  
 ```
-+ index_no_id.py를 넣은 index.py> <br>
++ index_no_id.py를 넣은 index.py <br>
 ```
 import cgi  
 form = cgi.FieldStorage()  
@@ -85,16 +85,20 @@ print('''<!doctype html>
 `print(True)` #참 <br>
 `print(False)` #거짓 <br>
 
-## 3. Expression #좌항과 우항을 합쳐서 하나로 <br>
+## 3. Expression <br>
++ 좌항과 우항을 합쳐서 하나로 <br>
 `print(1+1)` #2 <br>
 `print('Hello '+'world')` #Hello world <br>
 
-## 4. Comparison operator #비교연산 #Boolean결과값 <br>**
+## 4. Comparison operator <Br>
++ 비교연산 <br> 
++ Boolean결과값 <br>
 `print(1==1)` #True <br>
 `print(1<2)` #True <br>
 `print(2<1)` #False <br>
 
-## 5. Membership operator #뒤에 있는 값에 앞에 있는 값이 포함되어 있는가 <br>**
+## 5. Membership operator 
++ 뒤에 있는 값에 앞에 있는 값이 포함되어 있는가? <br>
 `print('world' in 'Hello world')`  #True #world가 helloworld안에 있는가? <br>
 
 + python3 check exist file in directory <br>
@@ -104,14 +108,15 @@ print(os.path.exists('boolean.py')) #True
 print(os.path.exists('boolean2.py')) #False
 ```
 
-## 6. 조건문(Conditional Statement) <br>**
+## 6. 조건문(Conditional Statement) <br>
 + 조건문 형식 <br>
   ```
 if xxx(boolean datatype) :
     yyy
 ```
-<if문에 추가로 조건 생성><br>
-elif #잘 안됨. 해결--> 위의 코드를 주석처리하고 진행해야 원하는 값을 얻을 수 있음.
++ if문에 추가로 조건 생성 <br>
++ elif(else if) <br>
+: 잘 안됨 --> 해결 --> 위의 코드를 주석처리하고 진행해야 원하는 값을 얻을 수 있음. <br>
 ```
 if user_id == 'hyeonah' and user_pwd == '111111':
         print('Hello master')
@@ -122,7 +127,7 @@ else:
 ```
 
 
-**7. 논리 연산자(Logical operator)<br>**
+## 7. 논리 연산자(Logical operator) <br>
     1) and-> 왼쪽과 오른 쪽의 값이 같은지 다른지에 따라 \*\*true\*\* \*\*false\*\*<br>
 `True and False` #False<br>
 `True and True` #True<br>
