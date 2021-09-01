@@ -93,6 +93,7 @@ print(id(x)) #2728170310768
 
 
 ## 4. dict_other container (Mapping Types) <br>
++ 값에 대한 이름을 문자로 부여하는 것.
 + 딕셔너리 타입은 immutable한 key(키)와 mutable한 value(값)으로 맵핑되어 있는 **순서가 없는 집합**. <br>
 + 기본 딕셔너리의 모습 <br>
 ```
