@@ -1,4 +1,4 @@
-## 1. form <br>
+## 1. 생성구현1_ form <br>
 + `<p></p>`는 줄바꿈을 해줌. <br>
 + form이란 사용자로터 정보를 입력받는 양식 <br>
 + `placeholder`는 글쓰기 전에 쓰여있는 글씨이고, `name`은 전송할때 적혀지는 것. <br>
@@ -53,7 +53,7 @@ print('''<!doctype html>
 + form은 어떻게 만드나? <br>
 : `<form>`과 `</form>`으로 감싸기 <br>
 + 사용자가 데이터입력이나 수정할 수 없도록 하는 법=query string 있으면 안된다. <br>
-: action, method 추가. <br>
+: action, method 추가. -> 잘 안되었음 -> 스펠링 제대로 써야 함. <br>
 ```
 print('''<!doctype html>
 <html>
@@ -67,12 +67,13 @@ print('''<!doctype html>
     {listStr}
   </ol>
   <a href="creat.py">create</a>
-  <form action="process_creat.py" method="host">
+  <form action="process_creat.py" method="post">
     <p><input type="text" name="title" placeholder="title"></P>
-    <p><textarea row="4" name="discription" placeholder="description"></textarea></p>
+    <p><textarea rows="4" name="description" placeholder="description"></textarea></p>
     <p><input type="submit"></p>
   </form>
 </body>
 </html>
 '''.format(title=pageId, desc=description, listStr=listStr))
 ```
+## 2. 생성구현2_ 전송한 정보의 처리 <br>
