@@ -30,7 +30,7 @@
 '123'.capitalize() #'123'
 ['hyeonah'].capitalize() #오류
 ```
-_예를 들어, 대문자화 하는 것은 str은 되지만 list는 안되는 것을 확인.
+_예를 들어, 대문자화 하는 것은 str은 되지만 list는 안되는 것을 확인._
 + list <br>
 ```
 s = [1, 'four', 9, 16, 25] 
