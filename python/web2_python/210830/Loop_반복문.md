@@ -104,10 +104,10 @@ print('''<!doctype html>
 ```
 
 ### 7. form 사용.<br>
-#url qurey string을 만드는 것<br>
++ url qurey string을 만드는 것<br>
 ```
 input
 textarea
 ```
 `<form>`과 `</form>`으로 감싸기<br>
-#사용자가 데이터입력이나 수정할 수 없도록 하는 법=query string 있으면 안된다.<br>
++ 사용자가 데이터입력이나 수정할 수 없도록 하는 법=query string 있으면 안된다.<br>
