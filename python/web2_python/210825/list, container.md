@@ -52,7 +52,7 @@ a[1] = 4 #오류
 del a[2] #오류
 ```
 
-: _즉, list와 str 모두 sequence operation이지만, str은 텍스트이기 때문에 n번째 원소를 다른 값으로 바꾸거나 삭제 불가. <br>
+: _즉, list와 str 모두 sequence operation이지만, str은 텍스트이기 때문에 n번째 원소를 다른 값으로 바꾸거나 삭제 불가._ <br>
     
 ## 3. 객체(Object)에 관하여 <br>
 + 객체의 3 특징 <br>
