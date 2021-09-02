@@ -21,7 +21,7 @@
 
 
 ## 2. common sequence operation <br>
-+ list(Sequence Type)와 str(Text Sequence Type)은 공통적으로 sequednce operation <br>
++ list(Sequence Type)와 str(Text Sequence Type)은 공통적으로 sequence operation <br>
 + list와 str 비교(공/차) <br>
 ```
 '"a"+"b"' #'ab'
