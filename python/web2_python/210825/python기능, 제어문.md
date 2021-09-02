@@ -138,7 +138,7 @@ else:
     print('Who are you?')
 ```
 ## 7. 논리 연산자(Logical operator) <br>
-    1) and-> 왼쪽과 오른 쪽의 값이 같은지 다른지에 따라 \*\*true\*\* \*\*false\*\*<br>
+    1) and-> 왼쪽과 오른 쪽의 값이 같은지 다른지에 따라 true Or false <br>
 `True and False` #False
 `True and True` #True
   
