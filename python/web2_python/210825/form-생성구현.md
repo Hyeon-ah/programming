@@ -77,3 +77,41 @@ print('''<!doctype html>
 '''.format(title=pageId, desc=description, listStr=listStr))
 ```
 ## 2. 생성구현2_ 전송한 정보의 처리 <br>
++ 입력하여 submit한 값이 페이지에서 나타나도록 하는 것 <br>
++ create.py, process_create.py활용
+```
+#!python
+print("Content-Type: text/html")
+print()
+
+
+import cgi
+form = cgi.FieldStorage()
+title = form["title"].value
+description = form['description'].value
+
+print(title, description)
+```
++ html form을 활용하여 전송한 데이터를 Python 어플리케이션이 받아서 처리하는 방법
+```
+#!python
+
+
+
+import cgi
+form = cgi.FieldStorage()
+title = form["title"].value
+description = form['description'].value
+#print하는 건 없애줘야 함, 그렇지 않으면 header에 변화가 생겨버림.
+'''
+print(title, description)
+'''
+#title에 입력한 것이 data의 파일로 생성됨.
+opened_file = open('data/'+title, 'w')
+opened_file.write(description)
+
+#Redirection
+#웹서버가 웹브라우져에게 Location~으로 이동해!
+print("Location: index.py?id"+title)
+print()
+```
