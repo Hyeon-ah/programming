@@ -138,16 +138,16 @@ else:
     print('Who are you?')
 ```
 ## 7. 논리 연산자(Logical operator) <br>
-    1) and-> 왼쪽과 오른 쪽의 값이 같은지 다른지에 따라 true Or false <br>
+    1) and-> 왼쪽과 오른 쪽의 값이 같은지 다른지에 따라 true Or false 
 `True and False` #False <br>
 `True and True` #True <br>
   
-    2) or-> 왼쪽과 오른쪽 값 중에서 하나만 true여도 true임. <br>
+    2) or-> 왼쪽과 오른쪽 값 중에서 하나만 true여도 true임. 
 `True or False` #True <br>
 `False or False` #False <br>
 `True or True` #True <br>
    
-    3) not-> 반대를 만듦. <br>
+    3) not-> 반대를 만듦. 
 `not True` #False <br>
 `not False` #True <br>
   
