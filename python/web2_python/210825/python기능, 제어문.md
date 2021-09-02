@@ -142,7 +142,7 @@ else:
 `True and False` #False <br>
 `True and True` #True <br>
   
-    2) or-> 왼쪽과 오른쪽 값 중에서 하나만 true여도 true임.<br>
+    2) or-> 왼쪽과 오른쪽 값 중에서 하나만 true여도 true임. <br>
 `True or False` #True <br>
 `False or False` #False <br>
 `True or True` #True <br>
