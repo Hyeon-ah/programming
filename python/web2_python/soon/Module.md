@@ -51,7 +51,7 @@ def getList():
         listStr = listStr + '<li><a href="index.py?id={name}">{name}</a></li>'.format(name=item)
     return listStr
 ```
-+index.py, create.py, update.py에서... 
++ index.py, create.py, update.py에서... 
 ```
 #def getList()부분 없애고, view import. 
 import cgi, os, view
@@ -64,3 +64,7 @@ import cgi, os, view
     update_link=update_link,
     delete_action=delete_action))
 ```
+## 3. advantages of using module
++ 코드보기가 편함
++ 중복을 없앨 수 있음.
++ 중복되는 부분은 하나의 파일을 수정해서 한꺼번에 처리할 수 있음.
