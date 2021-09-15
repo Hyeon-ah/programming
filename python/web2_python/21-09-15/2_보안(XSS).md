@@ -23,7 +23,7 @@
 
 ## 2. XSS 해결하는 방법 1
 + <script>가 실행되지 않고, 화면에 나타나도록 하기
-+ `replace` 넣기.
++ index,py에 `replace` 넣기.
 ```
 #!python
 print("Content-Type: text/html")
