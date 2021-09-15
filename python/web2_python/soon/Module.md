@@ -17,7 +17,7 @@ def plus(a,b) :
 pi = 3.14
 ```
 + module을 가져오는 법 
-  1) mathmatics라는 module을 import
+    1) mathmatics라는 module을 import
 ```
 import mathmatics
 #파일명과 일치 해야 함.
