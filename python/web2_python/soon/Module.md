@@ -35,6 +35,7 @@ print(plus(1,2))
 print(pi)
 ```
 
-
-
 module보다 큰 가방=package!
+
+## 2. Python의 함수를 파일로 분리해서 모듈화시키는 방법
+모듈을 모아 놓은 view.py를 
