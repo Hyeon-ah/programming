@@ -51,3 +51,16 @@ def getList():
         listStr = listStr + '<li><a href="index.py?id={name}">{name}</a></li>'.format(name=item)
     return listStr
 ```
++index.py, create.py, update.py에서... 
+```
+#def getList()부분 없애고, view import. 
+import cgi, os, view
+
+#fomat부분
+'''.format(
+    title=pageId,
+    desc=description,
+    listStr=view.getList(), #요부분 view.라고 적어서 import `view` module.
+    update_link=update_link,
+    delete_action=delete_action))
+```
