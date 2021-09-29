@@ -42,7 +42,7 @@ print(a())
 그러나 모듈을 이용하면 더 용이함.
 
 ## 4-1. 모듈의 도입(Python)
-+ 각각의 함수를 각각의 파일로 분리_hyeon.py & ah.py
++ 각각의 함수를 각각의 파일로 분리= hyeon.py & ah.py = hyeon모듈, ah모듈 생성
 + 1) hyeon.py
 ```
 def a():
