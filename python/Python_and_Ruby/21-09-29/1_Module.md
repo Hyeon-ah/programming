@@ -78,7 +78,7 @@ import ah as k # ah 모듈을 모듈 k 로 이름 변경
 print(z()) # a # 바뀐 함수로 부르기
 print(k.a()) # B # 바뀐 모듈로 부르기
 ```
-+ 정리 
++ ### 정리 
 import만 있으면 module만 부르는 것. <br>
 from이 있으면 모듈에서 특정 함수를 가져오는 것 <br>
 즉, import가 가져오는 것이 함수 일수도 있고, 모듈일 수도 있다. <br>
