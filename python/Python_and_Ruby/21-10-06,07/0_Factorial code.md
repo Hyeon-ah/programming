@@ -19,7 +19,7 @@ def factori (n):
 factori(5) # 120
 ```
 
-## 3. #factorial구하는 방법 3 ( while 문)
+## 3. factorial구하는 방법 3 ( while 문)
 ```
 #num = int(input('수를 입력하세요 : '))
 def Factorial(n):
