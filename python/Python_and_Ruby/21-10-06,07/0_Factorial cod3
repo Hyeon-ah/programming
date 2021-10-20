@@ -6,7 +6,6 @@ def factorial(n):
         m = m * n
         n = n - 1
     return m
-
 factorial(6) # 720
 ```
 
@@ -29,8 +28,6 @@ def Factorial(n):
         num = num * n 
         n = n - 1
     return num
-  
-
 Factorial(6) # 720
 ```
 
