@@ -42,7 +42,7 @@ This used more when parsing complex patterns.
 + `/^(?!Volcano)[A-Za-z]+/` <br>
 -> matches the beginning of a line matches any single word that doesn't start with "Volcano"
 
-### 4. Kinds of <Zero-width Assertion>
+### 4. Kinds of Zero-width Assertion
 https://wansook0316.github.io/dv/concept/2020/10/08/regex-07-%EB%8B%A4%EC%96%91%ED%95%9C-%EB%A9%94%ED%83%80%EB%AC%B8%EC%9E%90.html
 + ^	->문자열의 맨 처음과 일치하는가?(괄호 밖에 사용시.)	 
 ```
