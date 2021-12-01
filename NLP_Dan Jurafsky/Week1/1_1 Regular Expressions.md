@@ -13,7 +13,7 @@
 3) Negations `[^Ss]`: we don't want the set of letters <br>
 4) pipe `|` = or <br>
 	ex. a|b|c = [abc] <br>
-5) Other regular expressions: `?` `*` `+` `.`
+5) Other regular expressions: `?` `*` `+` `.` <br>
 5-1) `?`: optional previous char(?앞의 char가 있어도 되고 없어도 되고) <br>
 5-2) `*`: 0 or more of previous char(*앞의 문자/숫자가 0개 이상 있는지) <br>
 5-3) `+`: 1 or more of previous char(+앞의 문자/숫자가 1개 이상 있는지) <br>
