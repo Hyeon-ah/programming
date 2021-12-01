@@ -5,8 +5,8 @@
 ### 1. Capture Groups(그루핑)
 + Say we want to put angles around all numbers: the 35 boxes -> the <35> boxes
 + Use parens () to "capture" a pattern into a numbered register(1,2,3 ...)
-+ Use \1 to refer to the contents of the register <br>
-(재참조)\1은 정규식의 그룹 중 첫 번째 그룹을 가리킴. 두 번째 그룹을 참조하려면 \2를 사용.
++ Use `\1` to refer to the contents of the register <br>
+(재참조)`\1`은 정규식의 그룹 중 첫 번째 그룹을 가리킴. 두 번째 그룹을 참조하려면 `\2`를 사용.
 
 ### 2. Capture Groups: Multiple Registers
 + ex. <br>
