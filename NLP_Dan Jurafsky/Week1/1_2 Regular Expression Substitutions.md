@@ -34,7 +34,8 @@ ex.
 	But not: <br>
 		some cats like some some <br>
 ```
-### 3. Lookahead Assertions: Make use of the paren question mark syntax for non-capture.
+### 3. Lookahead Assertions
++ Make use of the paren question mark syntax for non-capture.
 + `(?= pattern)` -> is true if pattern matches, but is **ZERO-WIDTH(문자열 소비하지 않음)**; doesn't advance character pointer
 + `(?! pattern)` -> true if a pattern does not match <br>
 This used more when parsing complex patterns.
