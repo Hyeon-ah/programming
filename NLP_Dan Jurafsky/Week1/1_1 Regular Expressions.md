@@ -1,8 +1,8 @@
 # 1 1 Regular Expressions
 ## Basic Text Processing
-+ []: square brackets
-+ <>: angles
-+ (): parentheses
++ `[]`: square brackets
++ `<>`: angles
++ `()`: parentheses
 1. What is Regular Expressions
 - A formal language for specifying text strings
 - Disjunctions (논리합: 수리 논리학에서 주어진 복수 명제에 적어도 1개 이상의 참이 있는지를 나타내는 논리 연산)
@@ -10,7 +10,7 @@
 (1) Letters inside square brackets []: matches any digits
 (2) Ranges[A-Z]
 (3) Negations [^Ss]: we don't want the set of letters
-	+ ^을 Carat 이라고 함.
+^을 Carat 이라고 함.
 (4) pipe | = or
 	+ ex. a|b|c = [abc]
 (5) Other regular expressions: ? * + .
