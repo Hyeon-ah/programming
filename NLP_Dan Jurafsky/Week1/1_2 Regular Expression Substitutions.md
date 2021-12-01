@@ -9,33 +9,36 @@
 (재참조)\1은 정규식의 그룹 중 첫 번째 그룹을 가리킴. 두 번째 그룹을 참조하려면 \2를 사용.
 
 ### 2. Capture Groups: Multiple Registers
-ex. <br>
-/the (.*)er they (.*), the \1er we \2/ <br>
-	Matches: <br>
-		the faster they ran, the faster we ran <br>
-	But not: <br>
-		the faster they ran, the faster we ate <br>
-
++ ex. <br>
+```
+/the (.*)er they (.*), the \1er we \2/ 
+	Matches: 
+		the faster they ran, the faster we ran 
+	But not: 
+		the faster they ran, the faster we ate 
+```
 + But suppose we don't want to capture?
-+ Parentheses' 2 functions: <br>
-	(1) grouping terms <br>
-	(2) capturing <br>
-+ Non-capture groups: <br>
-	add a ?: after paren
-+ To sum up,  <br>
-	?: -> consider this parens just for grouping not for capturing. <br>
-ex. <br>
++ Parentheses' 2 functions: 
+	1) grouping terms 
+	2) capturing
++ Non-capture groups: add a `?:` after paren
++ To sum up, 
+```
+`?:` -> consider this parens just for grouping not for capturing.
+```
+ex.
+```
 /(?:some|a few) (people|cats) like some \1/ <br>
 	Matches: <br>
 		some cats like some cats <br>
 	But not: <br>
 		some cats like some some <br>
-
+```
 ### 3. Lookahead Assertions: Make use of the paren question mark syntax for non-capture.
-+ (?= pattern) -> is true if pattern matches, but is ZERO-WIDTH(문자열 소비하지 않음); doesn't advance character pointer
-+ (?! pattern) -> true if a pattern does not match <br>
-	This used more when parsing complex patterns.
-+ /^(?!Volcano)[A-Za-z]+/ <br>
++ `(?= pattern)` -> is true if pattern matches, but is ZERO-WIDTH(문자열 소비하지 않음); doesn't advance character pointer
++ `(?! pattern)` -> true if a pattern does not match <br>
+This used more when parsing complex patterns.
++ `/^(?!Volcano)[A-Za-z]+/` <br>
 -> matches the beginning of a line matches any single word that doesn't start with "Volcano"
 
 ### 4. Kinds of <Zero-width Assertion>
