@@ -7,13 +7,13 @@
 - A formal language for specifying text strings
 - Disjunctions (논리합: 수리 논리학에서 주어진 복수 명제에 적어도 1개 이상의 참이 있는지를 나타내는 논리 연산)
 ### 2. Kinds of Regular Expressions
-(1) Letters inside square brackets `[]`: matches any digits <br>
-(2) Ranges`[A-Z]` <br>
-(3) Negations `[^Ss]`: we don't want the set of letters <br>
+	1) Letters inside square brackets `[]`: matches any digits <br>
+	2) Ranges`[A-Z]` <br>
+	3) Negations `[^Ss]`: we don't want the set of letters <br>
 `^`을 Carat 이라고 함. <br>
-(4) pipe `|` = or <br>
+	4) pipe `|` = or <br>
 	+ ex. a|b|c = [abc] <br>
-(5) Other regular expressions: ? `*` `+` `.` <br>
+	5) Other regular expressions: ? `*` `+` `.` <br>
 	+ `?`: optional previous char(?앞의 char가 있어도 되고 없어도 되고) <br>
 	+ `*`: 0 or more of previous char(*앞의 문자/숫자가 0개 이상 있는지) <br>
 	+ `+`: 1 or more of previous char(+앞의 문자/숫자가 1개 이상 있는지) <br>
