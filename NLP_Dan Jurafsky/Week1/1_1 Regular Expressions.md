@@ -20,6 +20,8 @@
 5-4) `.`: any digit is possible in the place of "." <br>
 	ex. beg.n -> begin begun beg3n <br>
 #### 6) Anchors `^` `$` -> Used **outside** of square brackets <br>
++ 2종 가설(기무가설을 거짓이지만, 기무가설 채택-> 살아야 하는게 죽는 경우?) 1종 가설(기무가설이 참이지만,
++ 기무가설 - 대립가설?
 6-1) `^`: start with the specific char after ^  <br>
 	ex. ^[A-Z]-> A부터 Z까지로 시작하는 것을 찾음 <br>
 6-2) `$`: finish with the specific char before $  <br>
