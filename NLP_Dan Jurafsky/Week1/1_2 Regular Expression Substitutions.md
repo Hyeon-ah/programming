@@ -19,8 +19,31 @@
 ```
 + But suppose we don't want to capture?
 + Parentheses' 2 functions: 
-	1) grouping terms 
-	2) capturing
+	1) Grouping terms _정규식의 여러 문자를 그룹으로 묶어주는 것_
+	2) Capturing _정규식의 일부분에 해당하는 문자열에만 관심이 있을 때 그 부분을 따로 빼서 캡처하는 기능_
++ Example of Grouping 
+```
+'12 1212 1222'에서 ‘12’ 혹은 ‘1222’가 아닌 ‘1212’와 같은 문자열을 찾기 
+-> 소괄호 ( )로 그룹화
+
+print(re.match('(12)+', '1212'))
+print(re.search('(12)+', '1212'))
+print(re.findall('(12)+', '1212'))
+print(re.fullmatch('(12)+', '1212'))
+```
++ Example of Capturing
+```
+‘yyyy-mm-dd’와 같이 날짜를 나타내는 문자열 중 월, 일을 각각 따로 빼서 쓰기
+-> 따로 빼고 싶은 부분인 ‘mm’과 ‘dd’ 부분에만 소괄호의 캡처 기능을 사용
+
+print(re.findall('\d{4}-(\d\d)-(\d\d)', '2028-07-28'))
+print(re.findall('\d{4}-(\d\d)-(\d\d)', '1999/05/21 2018-07-28 2018-06-31 2019.01.01'))
+```
+결과
+```
+[('07', '28')]
+[('07', '28'), ('06', '31')] # 형식에 맞지 않는 01.01은 나오지 않음.
+```
 + Non-capture groups: add a `?:` after paren
 + To sum up, 
 ```
