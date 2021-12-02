@@ -69,7 +69,16 @@ This used more when parsing complex patterns.
 -> matches the beginning of a line matches any single word that doesn't start with "Volcano"
 
 ### 4. Kinds of Zero-width Assertion
-+ `^` -> 문자열의 맨 처음과 일치하는가?(괄호 밖에 사용시.)	 
++ 범위를 제외
+```
+[^범위]*
+[^범위]+
+```
++ 특정 문자 범위로 시작
+```
+^[범위]*
+^[범위]+	 
+```
 ```
 >>> print(re.search('^Life', 'Life is too short'))
 <re.Match object; span=(0, 4), match='Life'>
