@@ -21,6 +21,22 @@
 + Parentheses' 2 functions: 
 	1) Grouping terms _정규식의 여러 문자를 그룹으로 묶어주는 것_
 	2) Capturing _정규식의 일부분에 해당하는 문자열에만 관심이 있을 때 그 부분을 따로 빼서 캡처하는 기능_
+
++ Non-capture groups: add a `?:` after paren
++ To sum up, 
+```
+`?:` -> consider this parens just for grouping not for capturing.
+```
+ex.
+```
+/(?:some|a few) (people|cats) like some \1/ <br>
+	Matches: <br>
+		some cats like some cats <br>
+	But not: <br>
+		some cats like some some <br>
+```
+
++ ()의 그루핑, 캡쳐 기능 관련하여
 + Example of Grouping 
 ```
 '12 1212 1222'에서 ‘12’ 혹은 ‘1222’가 아닌 ‘1212’와 같은 문자열을 찾기 
@@ -43,19 +59,6 @@ print(re.findall('\d{4}-(\d\d)-(\d\d)', '1999/05/21 2018-07-28 2018-06-31 2019.0
 ```
 [('07', '28')]
 [('07', '28'), ('06', '31')] # 형식에 맞지 않는 01.01은 나오지 않음.
-```
-+ Non-capture groups: add a `?:` after paren
-+ To sum up, 
-```
-`?:` -> consider this parens just for grouping not for capturing.
-```
-ex.
-```
-/(?:some|a few) (people|cats) like some \1/ <br>
-	Matches: <br>
-		some cats like some cats <br>
-	But not: <br>
-		some cats like some some <br>
 ```
 ### 3. Lookahead Assertions
 + Make use of the paren question mark syntax for non-capture.
