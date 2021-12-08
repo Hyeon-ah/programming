@@ -20,3 +20,27 @@ Unix tools for space-based tokenization
   + The "tr" command
   + Inspired by Ken Church's UNIX for Poets
   + Givern a text file, output the word tokens and their frequencies
+
+## Issues in Tokenization
+Can't just blindly remove puntucation:
+  + `m.p.h.`, `Ph.D.`, `AT&T`, `cap'n`
+  + prices(`$45.45`)
+  + dates(`01/02/06`)
+  + URLs(`http://www.stanford.edu`)
+  + hashtags(`#nlproc`)
+  + email addresses(`someone@cs.colorado.edu`)
+
+Clitic: a word that doesn't stand on its own
+  + `are` in `we're`, French `je` in `j'ai`, `le` in `l'honneur`
+
+When should multiword expressions(MWE) be words?
+  +`New York`, `rock'n'roll` 이런거는 1개 단어? 2개 단어? -> 논란있음.
+  
+## Word tokenization / segmentation
+중국어나 일본어 같이 단어 사이에 스페이스가 없는 경우도 있다. <br>
+In Chinese, it's common to just treat each character(zi) as a token.
+  + So the segmentation step is very simple
+
+In other languages (like Thai and Japanese), more complex word segmentation is required.
+  + The standard algorithims are neural sequence models trained by supervised machind learning.(물론, 다음에 이야기 할 예정)
+
