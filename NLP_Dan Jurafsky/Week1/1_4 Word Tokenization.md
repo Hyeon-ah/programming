@@ -15,6 +15,7 @@ A very simple way to tokenize
   + for languages that use space characters between words
     - Arabic, Cyrillic, Greek, Latin, etc., based writing systems
   + Segment off a token between instances of spaces <br>
+
 Unix tools for space-based tokenization
   + The "tr" command
   + Inspired by Ken Church's UNIX for Poets
