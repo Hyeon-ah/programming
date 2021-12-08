@@ -40,3 +40,24 @@ Until _k_ merges have been done.
 Most subword algorithms are run inside space-separated tokens. <br>
 So we commonly first add a special end-of-word symbol `'__'` before space in training corpus. <br>
 Next, separate into letters.
++ 빈도 수가 많은 것부터 merge 해서 vocabulary를 늘려간다.
+
+## BPE token **segmenter** algorithm
+On the test data, run each merge learned from the training data:
+  + Greedily
+  + In the order we learned them
+  + (test 횟수는 중요하지 않음.)
+
+So: merger every `e`, `r` to `er`, them merger `er`,`_` to `er_`, etc. <br>
+Result:
+  + Test set "n e w e r _" -> tokenized as a full word
+  + Test set " l o w e r _" -> tokenized into 2 tokens(`low`, `er_`)
+
+
+## Properties of BPE tokens
+Usually include frequent words <br>
+And frequent subword
+  + Which are often morphemes like `-est` or `er`
+
+A **morpheme** is the smallest meaning-bearing unit of a language(=형태소)
+  + `unlikliest` has 3 morphemes `un-`, `likely`, and `-est`
