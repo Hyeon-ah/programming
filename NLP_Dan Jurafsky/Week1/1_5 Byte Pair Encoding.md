@@ -34,4 +34,7 @@ Repeats:
 Until _k_ merges have been done.
 
 ## BPE token learner algorithm
-function __BYTE-PAIR ENCODING__(strings _C_, numbers of merges _k_) **returns** vocab _V_
+**function** __BYTE-PAIR ENCODING__(strings _C_, numbers of merges _k_) **returns** vocab _V_ <br>
+V <- all unique characters in _C_   # initial set of tokens is characters <br>
+**for** _i_= 1 **to** _k_ **do**    # merge tokens til _k_ times <br>
+  
