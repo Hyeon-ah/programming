@@ -6,6 +6,8 @@ Every NLP task requires text normalization:
   3. Segmenting sentences
   
 ## Space-based tokenization
++ R에서 하는 것처럼 스페이스로 단어들 나누고 token을 알 수 있음.
++ 각종 command를 사용해서 "대문자를 소문자로 변경", "빈도수가 많은 것부터 나열" 등이 가능.
 A very simple way to tokenize
   + for languages that use space characters between words
     - Arabic, Cyrillic, Greek, Latin, etc., based writing systems
