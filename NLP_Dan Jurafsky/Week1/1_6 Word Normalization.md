@@ -1,4 +1,4 @@
-# 1_6 Word Normalization
+# 1_6 Word Normalization and other issues
 + How to put all words in a standard format a process called **Word Normalization**
 + Sentence segmentation = breaking up your text corpora into larger discourse unit like sentences reading in paragraph.
 
