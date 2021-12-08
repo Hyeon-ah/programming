@@ -31,4 +31,7 @@ Repeats:
   + Add a new merged symbol "AB" to the vocabulary
   + Replace every adjacent "A", "B" in the corpus with "AB".
   
-Until __k__ merges have been done.
+Until _k_ merges have been done.
+
+## BPE token learner algorithm
+function __BYTE-PAIR ENCODING__(strings _C_, numbers of merges _k_) **returns** vocab _V_
