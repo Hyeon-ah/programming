@@ -14,7 +14,7 @@ R에서 하는 것처럼 스페이스로 단어들 나누고 token을 알 수 �
 A very simple way to tokenize
   + for languages that use space characters between words
     - Arabic, Cyrillic, Greek, Latin, etc., based writing systems
-  + Segment off a token between instances of spaces
+  + Segment off a token between instances of spaces <br>
 Unix tools for space-based tokenization
   + The "tr" command
   + Inspired by Ken Church's UNIX for Poets
