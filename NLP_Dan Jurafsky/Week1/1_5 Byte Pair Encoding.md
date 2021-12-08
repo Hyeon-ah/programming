@@ -34,7 +34,9 @@ Repeats:
 Until _k_ merges have been done.
 
 ## BPE token learner algorithm
-**function** __BYTE-PAIR ENCODING__(strings _C_, numbers of merges _k_) **returns** vocab _V_ <br>
-V <- all unique characters in _C_   # initial set of tokens is characters <br>
-**for** _i_= 1 **to** _k_ **do**    # merge tokens til _k_ times <br>
-  
+![BPE token learner algorithm](https://user-images.githubusercontent.com/72482724/145234294-91e91c0b-fb57-4c2f-af77-f1aba96b7c10.jpg)
+
+## Byte Pair Encoding(BPE) Addendum
+Most subword algorithms are run inside space-separated tokens. <br>
+So we commonly first add a special end-of-word symbol `'__'` before space in training corpus. <br>
+Next, separate into letters.
