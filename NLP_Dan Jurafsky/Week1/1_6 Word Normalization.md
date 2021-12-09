@@ -32,8 +32,9 @@ Represent all words as their lemma, their shared root <br>
 ## Lemmatization is done by Morphological Parsing
 **Morphemes(형태소)**:
   + The small meaning units that make up words
-  + **Stems**: The core meaning-bearing units
+  + **Stems(어근)**: The core meaning-bearing units
   + **Affixes**: Parts that adhere to stems, often with grammatical functions
+    - KOR: 접두사(_햇_사과), 접미사
 
 **Morphological Parsers**:
   + Parse _cats_ into 2 morphemes _cat_ and _s_
