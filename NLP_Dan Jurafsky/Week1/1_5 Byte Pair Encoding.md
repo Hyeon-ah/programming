@@ -1,6 +1,7 @@
 # 1_5 Byte Pair Encoding(BPE algorithm)
 + Used in corpus statistic to decide how to segment a text into tokens
 + BYE algorithm is a set of corpus based tokenizers that are extremeley wisely used in NLP
++ vocab에 있는 건 무시하고 freq세서.
 
 ## Another option for text tokenization
 Instead of 
