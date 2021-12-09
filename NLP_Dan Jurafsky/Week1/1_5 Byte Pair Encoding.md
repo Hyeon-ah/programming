@@ -15,6 +15,7 @@ Instead of
   + Byte-Pair Encoding(BPE) (Sennrich et al., 2016)
   + Unigram language modeling tokenization (Kudo, 2018)
   + WordPiece(Schuster and Nakajima, 2012)
+  + 한국어는 이러한 알고리즘 사용x -> 꼬꼬마 형태소나 KoNLPy 사용
 
 All have 2 parts:
   + A token **learner** that takes a raw training corpus and induces a vocabulary (a set of tokens).
