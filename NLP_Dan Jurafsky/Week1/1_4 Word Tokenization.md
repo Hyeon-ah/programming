@@ -1,5 +1,8 @@
 # 1_4 Word Tokenization
 ## Text Normalization
++ (21/12/09): 
++ tokenization 안하면: 문장에서 뭐가 동사고, 주어고 형용사인지 알 수 없게 됨.(Lemma를 알아야 함.) -> 형태소 단위로 끊어주어야 함.
++ 데이터가 process에 들어가기 전에 하는 pre-process 단게임.
 Every NLP task requires text normalization:
   1. Tokenizing (segmenting) words
   2. Normalizing word formats
