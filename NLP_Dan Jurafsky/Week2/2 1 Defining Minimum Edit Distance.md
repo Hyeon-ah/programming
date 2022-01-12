@@ -16,5 +16,6 @@
 		= Path cost: 2 
 ## 4. Defining Min Edit Distance 
 	- The edit distance between X[1..n] and Y[1..m] is D(n,m) 
+	source string X, target string Y
 	길이가 n인 X, 길이가 m인 Y
 
