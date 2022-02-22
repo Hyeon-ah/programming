@@ -77,7 +77,43 @@ MariaDB [opentutorials]>  CREATE TABLE topic(
     ->  profile VARCHAR(100) NULL,
     ->  PRIMARY KEY(id));
 ```
-  
+
+SHOW TABLES;, SHOW DATABASES;, DESC 
 ## 7. CRUD
-  + (**Create**, **Read**, Update, Delete)
-#### 1) INSERT
++ (**Create**, **Read**, Update, Delete)
++ WHERE문 꼭 넣기(데이터 망가질 수 있음.)
++ 매뉴얼의 `[]`는 생략가능.
+#### 1),3) INSERT, UPDATE
+  + 데이터 생성
+  + 사용한 코드
+
+```
+  1) 데이터 입력
+  INSERT INTO topic (title,description,created,author,profile) VALUES('MongoDB','MongoDB is',NOW(),'egoing','developer');
+  2) 데이터 보기
+  SELECT * FROM topic;
+  3) 데이터 추가
+   UPDATE topic SET author = "dura",description = 'SQL Server is ...'  WHERE id = 3;
+```
+
+#### 2) SELECT
++ 데이터 읽기
+```
+  MariaDB [opentutorials]> SELECT "egoing", 1+1;
++--------+-----+
+| egoing | 1+1 |
++--------+-----+
+| egoing |   2 |
++--------+-----+
+  MariaDB [opentutorials]> SELECT id, title, created, author FROM topic WHERE author="egoing" ORDER BY id DESC LIMIT 2;
++----+---------+---------------------+--------+
+| id | title   | created             | author |
++----+---------+---------------------+--------+
+|  5 | MongoDB | 2022-02-21 14:55:39 | egoing |
+|  2 | ORACLE  | 2022-02-21 14:51:57 | egoing |
++----+---------+---------------------+--------+
+```
+
+#### 4) DELETE
++ 
+  
