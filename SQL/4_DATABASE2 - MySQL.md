@@ -1,4 +1,5 @@
-# DATABASE2 - MySQL
+# DATABASE2 - MySQL에 대한 기본 개념
+
 + 파일의 한계 극복-> 데이터 잘 정리할 수 있도록 -->> database 탄생
 + 관계형 데이터베이스(Relational Database) 사용하면?
   1) 데이터를 표의 형태로 정리 가능
@@ -6,7 +7,6 @@
 + 관계형 데이터베이스의 종류?
   - MySQL, Oracle, SQL Server, PostgreSQL, DB2, Access
  
-
 ## 1. 데이터베이스의 목적
 + 엑셀과 아주 비슷
 + spread sheet vs database
@@ -118,8 +118,43 @@ MariaDB [opentutorials]>  CREATE TABLE topic(
   ` DELETE FROM topic WHERE id = 5;`
 
 ## 8. 관계형데이터베이스의 필요성
++ 중복이 계속되면 개선해야 할 것이 있다는 뜻 
++ 유지보수에 편리한(약간의 참조거는 것과 비슷한 개념인 듯)
++ 테이블을 쪼개서 테이블의 참조 값만 걸어놓으면 데이터에 해당하는 별도의 표를 열어 비교해서 봐야 하는 불편함이 있을 수 있음. 
 
-
+즉, MySQL을 가지고 저장은 분산으로, 볼때는 합쳐서 볼 수 있게 된다.via **JOIN**
   
+# 실습
+## 1. 표 생성
++ topic , author 표를 만들어(분산 저장) --> JOIN을 통해 합쳐서 볼 수 있음. 
++ topic 표 <br>
+  `INSERT INTO 'topic' VALUES (1,'MySQL','MySQL is...','2018-01-01 12:10:11',1);` <br>
+  ... <br>
+```
+MariaDB [opentutorials]> SELECT * FROM topic;
++----+------------+-------------------+---------------------+-----------+
+| id | title      | description       | created             | author_id |
++----+------------+-------------------+---------------------+-----------+
+|  1 | MySQL      | MySQL is...       | 2018-01-01 12:10:11 | 1         |
+|  2 | Oracle     | Oracle is ...     | 2018-01-03 13:01:10 | 1         |
+|  3 | SQL Server | SQL Server is ... | 2018-01-20 11:01:10 | 2         |
+|  4 | PostgreSQL | PostgreSQL is ... | 2018-01-23 01:03:03 | 3         |
+|  5 | MongoDB    | MongoDB is ...    | 2018-01-30 12:31:03 | 1         |
++----+------------+-------------------+---------------------+-----------+
+```
 
++ author 표 <br>
+`INSERT INTO author (id, name, profile) VALUES(1, 'egoing', 'developer');` <br>
+... <br>
+```
+MariaDB [opentutorials]> SELECT * FROM author;
++----+--------+---------------------------+
+| id | name   | profile                   |
++----+--------+---------------------------+
+|  1 | egoing | developer                 |
+|  2 | duru   | database administrator    |
+|  3 | taeho  | data scientist, developer |
++----+--------+---------------------------+
+```
   
+## 2. JOIN
