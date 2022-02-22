@@ -124,6 +124,9 @@ MariaDB [opentutorials]>  CREATE TABLE topic(
 
 즉, MySQL을 가지고 저장은 분산으로, 볼때는 합쳐서 볼 수 있게 된다.via **JOIN**
   
+## 9. Internet과 Database의 관계
++  
+  
 # 실습
 ## 1. 표 생성
 + topic , author 표를 만들어(분산 저장) --> JOIN을 통해 합쳐서 볼 수 있음. 
@@ -158,3 +161,9 @@ MariaDB [opentutorials]> SELECT * FROM author;
 ```
   
 ## 2. JOIN
++ `SELECT * FROM topic LEFT JOIN author ON topic.author_id=author.id;` --> left join 
++ `SELECT topic.id, title, description, created, name, profile FROM topic LEFT JOIN author ON topic.author_id=author.id;` <br>
+  - 특정 칼럼만 보기, topic의 id임을 알려줌.
++ `SELECT topic.id AS topic_id, title, description, created, name, profile FROM topic LEFT JOIN author ON topic.author_id=author.id;` <br>
+  - AS를 통해 칼럼필드 이름 바꿔서 보여줌.
+  
