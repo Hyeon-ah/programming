@@ -3,7 +3,7 @@
 ORACLE은 유료, 무료가 있음.
 
 ## 1. ORACLE 설치 및 접속
-`sys AS SYSDBA`입력해 접속
++ `sys AS SYSDBA`입력해 접속
 + 접속 방법
   - `sqlplus` -> 사용자 명:`sys AS SYSDBA`
 ## 2. User와 Schema의 개념
@@ -48,6 +48,15 @@ SELECT * FROM 테이블 WHERE 조건 :
 ## 6. SQL 이란?
  = Structured Query Language, 관계형 데이터베이스에서 SQL 사용. <br>
 명령어를 통해 database 제어할 수 있다. -> 자동화
+
+## 7. Server와 clinet
++ 인터넷에 연결된 컴퓨터 한대 한대를 host라고 함
++ 정보 요청=client
++ 정보 제공=server
++ sqlplus/TOAD/SQL DEVELOPER(clients) > oracle server
++ gui 형식=sql developer
+
+## 8. SQL developer
 
 # 실습
 ## 1. SELECT 행 읽기
