@@ -119,3 +119,4 @@ VALUES(SEQ_TOPIC.NEXTVAL,'MongoDB','MongoDB is ...', SYSDATE);
   - `SELECT SEQ_TOPIC.CURRVAL FROM topic;` # sequence의 현재 
   - `SELECT SEQ_TOPIC.CURRVAL FROM DUAL;` # sequence의 현재를 1개만 반환.
 
+## 6. 테이블 분해
