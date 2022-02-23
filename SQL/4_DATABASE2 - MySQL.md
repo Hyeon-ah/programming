@@ -125,7 +125,25 @@ MariaDB [opentutorials]>  CREATE TABLE topic(
 즉, MySQL을 가지고 저장은 분산으로, 볼때는 합쳐서 볼 수 있게 된다.via **JOIN**
   
 ## 9. Internet과 Database의 관계
-+  
++ Database server
++ server의 의미
+
++ 인터넷에 관하여
+    - 인터넷 동작을 위해선 컴퓨터 최소 2대 필요.
+    역할분담:요청(Web browser)-> 응답 으로 나뉨.
+    요청하는 컴퓨터는 client(web client), 응답하는 컴퓨터는 server(web server).
+    database client, database server. 
+    database client=MySQL moniotor(명령어를 통해 database server를 제어하는 프로그램.)
+    database client=WorkBench
+ 
+## 10. MySQL client 종류
++ MySQL monitor : 어디에서나 사용 가능, 명령어 기반 프로그램 (명령어를 기억해야한다는 단점)
++ MySQL workbench : GUI 기반 프로그램  
+  
+## 11. 마무리
++ 백업을 잘 하자!( backup, cloud_GOOGLE CLOUD SQL for MySQL)
++ database를 기반으로 완제품(앱, 사이트) 만드는 것
+  
   
 # 실습
 ## 1. 표 생성
