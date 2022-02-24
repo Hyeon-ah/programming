@@ -136,3 +136,5 @@ WITH CONTINUOUS(NUM, RESULT) AS
 SELECT NUM, RESULT
 FROM CONTINUOUS;
 ```
+## Oracle Recursive 
++ https://heodolf.tistory.com/72
