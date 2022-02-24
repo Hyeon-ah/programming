@@ -1,5 +1,5 @@
 # SQL join
-+ 관계형 데이터베이스의 join
++ 관계형 데이터베이스의 join <br>
 + 양 쪽에만 있는 표를 출력: INNER JOIN
 + 양 쪽에만 있는 표를 출력+왼쪽만 있는 정보도 출력: LEFT OUTER JOIN(LEFT JOIN)
   - RIGHT JOIN도 있으나, 많이 사용하지 않음. 방향이 바뀌었을 뿐 동작 방법은 똑같음.
